@@ -28,6 +28,24 @@ def write_positions(raw_path, proccessed_path, mapping, name):
 
     processed_pos_file.close()
 
+def generate_BO_files(smiles, num_bonds):
+    BO_dir = os.path.join("BO_data", smiles)
+    os.makedirs(BO_dir, exist_ok=True)
+
+    # the dimension files
+    dim_file = os.path.join(BO_dir, "Dimensions.csv")
+    dim_file = open(dim_file, mode='w')
+
+    dim_file.write("{}\n".format(num_bonds))
+    
+    for _ in range(num_bonds):
+        dim_file.write("50000,1000000\n")
+
+    # the next_value file.
+    next_file = (os.path.join(BO_dir, "Next.csv"))
+    next_file = open(next_file, mode='w')
+    next_file.write(",".join(["60000" for _ in range(num_bonds)]))
+
 def write_modified_bonds(raw_path, dir_path, mapping, bonds):
     mod_bond_file = os.path.join(raw_path, "modified_bonds.csv")
     mod_bond_file = open(mod_bond_file)
@@ -52,6 +70,7 @@ def write_modified_bonds(raw_path, dir_path, mapping, bonds):
         else:
             new_bond_file.write("{},{},{}\n".format(key[0], key[1], bond_value_dict[key]))
 
+    return len(bond_value_dict)
 
 def write_to_processed(smiles, mapping, bonds):
     dir_path = os.path.join("Processed_Molecule", smiles)
@@ -62,15 +81,18 @@ def write_to_processed(smiles, mapping, bonds):
     write_positions(raw_path, dir_path, mapping, "initial_pos.csv")
     write_positions(raw_path, dir_path, mapping, "target_pos.csv")
 
-    write_modified_bonds(raw_path, dir_path, mapping, bonds)
 
+    num_special_bonds = write_modified_bonds(raw_path, dir_path, mapping, bonds)
+
+
+    generate_BO_files(smiles, num_special_bonds)
 
 def process_raw_graph(smiles):
     dir = os.path.join("Raw_Molecule", smiles)
 
 
     # getting a map from index to atom type from the raw atom
-    atom_file = os.path.join(dir, "Atoms.txt")
+    atom_file = os.path.join(dir, "Atoms.csv")
     atom_file = open(atom_file, mode='r')
 
     raw_atoms = dict()
@@ -79,7 +101,7 @@ def process_raw_graph(smiles):
         raw_atoms[int(parts[0])] = int(parts[1])
 
 
-    bonds_file = os.path.join(dir, "Bonds.txt")
+    bonds_file = os.path.join(dir, "Bonds.csv")
     bonds_file = open(bonds_file, mode='r')
     
     raw_bonds = []

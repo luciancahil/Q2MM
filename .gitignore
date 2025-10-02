@@ -3,3 +3,6 @@ Raw_Molecule/*
 
 Processed_Molecule/*
 !Processed_Molecule/dummy.txt
+
+BO_data/*
+!BO_data/square_sin
