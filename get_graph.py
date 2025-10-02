@@ -8,9 +8,33 @@ from openff.toolkit import Molecule
 import networkx as nx
 from networkx.algorithms import isomorphism as iso
 
+def process_raw_graph(smiles):
+    dir = os.path.join("Raw_Molecule", smiles)
 
 
-molecule = Molecule.from_smiles("CC(C)=Cc1ccccc1c2ccccc2C=O")
+    # getting a map from index to atom type from the raw atom
+    atom_file = os.path.join(dir, "Atoms.txt")
+    atom_file = open(atom_file, mode='r')
+
+    raw_atoms = dict()
+    for line in atom_file:
+        parts = line.split(",")
+        raw_atoms[int(parts[0])] = int(parts[1])
+
+
+    bonds_file = os.path.join(dir, "Bonds.txt")
+    bonds_file = open(bonds_file, mode='r')
+    
+    raw_bonds = []
+    for line in bonds_file:
+        parts = line.split(",")
+        raw_bonds.append((int(parts[0]), int(parts[1])))
+    
+    return raw_bonds, raw_atoms
+
+smiles = "CC(C)=Cc1ccccc1c2ccccc2C=O"
+
+molecule = Molecule.from_smiles(smiles)
 
 #molecule = Molecule.from_smiles("C")
 
@@ -64,18 +88,16 @@ for i in range(system.getForces()[0].getNumBonds()):
 
     print("{} {} {}".format(params[0], params[1], i))
     open_mm_bonds.append((params[0], params[1]))
-breakpoint()
 
 # Build graphs
 G1 = nx.Graph()
 G1.add_edges_from(open_mm_bonds)
 nx.set_node_attributes(G1, open_mm_atoms, name="element")
-breakpoint()
 
-
+raw_bonds, raw_atoms = process_raw_graph(smiles)
 G2 = nx.Graph()
-G2.add_edges_from([(2, 3), (3, 1), (1, 2)])
-nx.set_node_attributes(G2, {1: "C", 2: "C", 3: "Cl"}, name="element")
+G2.add_edges_from(raw_bonds)
+nx.set_node_attributes(G2, raw_atoms, name="element")
 
 # Only allow mappings where `element` is identical
 node_match = iso.categorical_node_match("element", None)
