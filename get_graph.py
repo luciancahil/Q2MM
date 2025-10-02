@@ -28,6 +28,30 @@ def write_positions(raw_path, proccessed_path, mapping, name):
 
     processed_pos_file.close()
 
+def write_modified_bonds(raw_path, dir_path, mapping, bonds):
+    mod_bond_file = os.path.join(raw_path, "modified_bonds.csv")
+    mod_bond_file = open(mod_bond_file)
+
+    bond_value_dict = dict()
+    for line in mod_bond_file:
+        parts = line.split(",")
+        bond = [mapping[int(parts[0])], mapping[int(parts[1])]]
+        bond.sort()
+        bond_value_dict[(bond[0], bond[1])] = float(parts[2])
+    
+    new_bond_file = os.path.join(dir_path, "new_bonds.csv")
+    new_bond_file = open(new_bond_file, mode='w')
+
+    modified_bond_file = os.path.join(dir_path, "modified_bonds.csv")
+    modified_bond_file = open(modified_bond_file, mode='w')
+
+    for key in bond_value_dict.keys():
+        if key in bonds:
+            # index, atom1, atom2, bond distance
+            modified_bond_file.write("{},{},{},{}\n".format(bonds.index(key), key[0], key[1], bond_value_dict[key]))
+        else:
+            new_bond_file.write("{},{},{}\n".format(key[0], key[1], bond_value_dict[key]))
+
 
 def write_to_processed(smiles, mapping, bonds):
     dir_path = os.path.join("Processed_Molecule", smiles)
@@ -35,9 +59,10 @@ def write_to_processed(smiles, mapping, bonds):
     os.makedirs(dir_path, exist_ok=True)
 
 
-    # Initial Positions
-    write_positions(raw_path, dir_path, mapping, "Initial_Pos.csv")
-    write_positions(raw_path, dir_path, mapping, "Target_Pos.csv")
+    write_positions(raw_path, dir_path, mapping, "initial_pos.csv")
+    write_positions(raw_path, dir_path, mapping, "target_pos.csv")
+
+    write_modified_bonds(raw_path, dir_path, mapping, bonds)
 
 
 def process_raw_graph(smiles):
