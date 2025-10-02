@@ -1,2 +1,5 @@
 Raw_Molecule/*
 !Raw_Molecule/CC(C)=Cc1ccccc1c2ccccc2C=O
+
+Processed_Molecule/*
+!Processed_Molecule/dummy.txt

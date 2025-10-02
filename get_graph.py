@@ -8,6 +8,30 @@ from openff.toolkit import Molecule
 import networkx as nx
 from networkx.algorithms import isomorphism as iso
 
+def write_to_processed(smiles, mapping, bonds):
+    dir_path = os.path.join("Processed_Molecule", smiles)
+    raw_path = os.path.join("Raw_Molecule", smiles)
+    os.makedirs(dir_path, exist_ok=True)
+
+
+    # Initial Positions
+    raw_initials = os.path.join(raw_path, "Initial_Pos.csv")
+    raw_initials = open(raw_initials)
+
+    processed_initial = os.path.join(dir_path, "Initial_Pos.csv")
+    processed_initial = open(processed_initial, mode='w')
+
+    atom_initial_pos_dict = dict()
+    for line in raw_initials:
+        parts = line.strip().split(",")
+        atom_initial_pos_dict[int(parts[0])] = parts[1:]
+
+    processed_initial_positions = {mapping[k]:atom_initial_pos_dict[k] for k in atom_initial_pos_dict.keys()}
+    for i in range(len(processed_initial_positions)):
+        processed_initial.write("{}\n".format(",".join(processed_initial_positions[i])))
+
+    processed_initial.close()
+
 def process_raw_graph(smiles):
     dir = os.path.join("Raw_Molecule", smiles)
 
@@ -106,3 +130,5 @@ GM = iso.GraphMatcher(G1, G2, node_match=node_match)
 assert(GM.is_isomorphic())
 print("Raw Atom Index : OpenMM Atom Index")
 print(GM.mapping)
+
+write_to_processed(smiles, GM.mapping, open_mm_bonds)
