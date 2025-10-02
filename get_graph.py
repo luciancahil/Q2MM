@@ -8,6 +8,27 @@ from openff.toolkit import Molecule
 import networkx as nx
 from networkx.algorithms import isomorphism as iso
 
+
+
+def write_positions(raw_path, proccessed_path, mapping, name):
+    raw_pos = os.path.join(raw_path, name)
+    raw_pos = open(raw_pos)
+
+    processed_pos_file = os.path.join(proccessed_path, name)
+    processed_pos_file = open(processed_pos_file, mode='w')
+
+    atom_initial_pos_dict = dict()
+    for line in raw_pos:
+        parts = line.strip().split(",")
+        atom_initial_pos_dict[int(parts[0])] = parts[1:]
+
+    processed_initial_positions = {mapping[k]:atom_initial_pos_dict[k] for k in atom_initial_pos_dict.keys()}
+    for i in range(len(processed_initial_positions)):
+        processed_pos_file.write("{}\n".format(",".join(processed_initial_positions[i])))
+
+    processed_pos_file.close()
+
+
 def write_to_processed(smiles, mapping, bonds):
     dir_path = os.path.join("Processed_Molecule", smiles)
     raw_path = os.path.join("Raw_Molecule", smiles)
@@ -15,22 +36,7 @@ def write_to_processed(smiles, mapping, bonds):
 
 
     # Initial Positions
-    raw_initials = os.path.join(raw_path, "Initial_Pos.csv")
-    raw_initials = open(raw_initials)
-
-    processed_initial = os.path.join(dir_path, "Initial_Pos.csv")
-    processed_initial = open(processed_initial, mode='w')
-
-    atom_initial_pos_dict = dict()
-    for line in raw_initials:
-        parts = line.strip().split(",")
-        atom_initial_pos_dict[int(parts[0])] = parts[1:]
-
-    processed_initial_positions = {mapping[k]:atom_initial_pos_dict[k] for k in atom_initial_pos_dict.keys()}
-    for i in range(len(processed_initial_positions)):
-        processed_initial.write("{}\n".format(",".join(processed_initial_positions[i])))
-
-    processed_initial.close()
+    write_positions(raw_path, dir_path, mapping, "Initial_Pos.csv")
 
 def process_raw_graph(smiles):
     dir = os.path.join("Raw_Molecule", smiles)
