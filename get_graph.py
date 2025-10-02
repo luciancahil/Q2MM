@@ -131,10 +131,6 @@ system = forcefield.createSystem(
     switchDistance=0.8 * openmm.unit.nanometer,
 )
 
-for i, force in enumerate(system.getForces()):
-    print(i, force.__class__.__name__)
-
-
 #system.getForces()[2].setParticleParameters(0,0,0,0)
 
 open_mm_bonds = []
