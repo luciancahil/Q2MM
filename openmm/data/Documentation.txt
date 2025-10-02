@@ -1,0 +1,22 @@
+run run_bo.sh with the name of a function:
+
+
+bash run_bo.sh square_sin
+
+
+You need two files: {name}_history.txt and {name}_next.txt
+
+To start, history is like this:
+
+2
+0,5
+0,6
+
+This means "2 variables, range from 0-5"
+
+
+To start, square_sin_next is 0,0
+
+That means input values are 0.
+
+Attempts will be appended.

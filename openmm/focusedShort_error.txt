@@ -1,0 +1,700 @@
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-694tpldg because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-3hho72pl because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-pz0fc4x9 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-hx7f2u7l because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-d1o51fvv because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-bfbtw136 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-rwf0tqp0 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-q06oysag because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-scbw20sh because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-3xme2w11 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-71nffryj because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-km3_4l8j because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-t86ov6ea because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-z3vbj5un because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-6xz1pbm7 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-yo4l2gu2 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-iucg9_54 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-iju7t6d5 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-mklja1wl because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-5fx21mk3 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-mevnsnbd because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-x8lw0xhh because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-p7979k5f because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-pd9oawgc because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-7kmws8ik because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-i06mwk7z because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-2qcu1zmi because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-cm3lqcpj because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-1a0poeuh because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-y74s1fs7 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-b0rq4gyq because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-c4rnsko8 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-3m3eyexy because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-q07wpb8k because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-furmnca1 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-g59ehc_2 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-ruu30ta6 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-dlw5_uub because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-ydzp17ar because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-09rywif0 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-6namijr1 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-sbn59jsj because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-im6n0b03 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-jzxn2eox because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-roj6ui52 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-awqff9s1 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-d2a40ywf because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-pb_wjryc because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-ypsdw2br because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-rbmp4i9q because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-y_7_iyls because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-p51jyqgq because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-envi7ws5 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-9_6zw008 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-e5rrwd6x because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-8g1t7m0v because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-uzbq7hma because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-xqdyzn_8 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-xnuf9cn5 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-zpdq5bzn because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-d09ckj17 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-i28djhdx because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-rlxzkxzc because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-iucp68my because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-uq73linu because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-243med2v because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-6ilnq91u because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-xyndrfcz because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-ejcyefuw because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-j5xb6mvn because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-p6e9a2fr because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-cor5ghsg because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-gal0i5f2 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-f4q3npot because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-4rungjvd because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-si3q7aug because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-7l30r3b6 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-42tl067_ because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-fs7gw4wd because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-yj18hopa because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-4_49rajk because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-ulz2c0vs because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-x8zvk8y1 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-qzoi14ul because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-0_h9d8_9 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-bx57ng9g because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-dlnwl4zb because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-9txt42em because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-lidq9rml because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-tao5llvc because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-kp2cmifx because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-hhdxjz8_ because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-7xnaw30o because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-s380uvau because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-mk74jylc because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-8otdk85k because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-0bra6a80 because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-t3p0l8ai because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-1yyufywn because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+/home/royhe/miniconda3/envs/openmm/lib/python3.11/site-packages/smirnoff99frosst/smirnoff99frosst.py:11: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+/arc/home/royhe/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/slurm/5946931/matplotlib-mgxoqs1t because there was an issue with the default path (/arc/home/royhe/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
