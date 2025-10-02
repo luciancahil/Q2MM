@@ -5,7 +5,24 @@ from sys import stdout
 import rmsd
 import numpy as np
 from openff.toolkit import Molecule
+import networkx as nx
+from networkx.algorithms import isomorphism as iso
 
+# Build graphs
+G1 = nx.Graph()
+G1.add_edges_from([(1, 2), (2, 3), (3, 1)])
+nx.set_node_attributes(G1, {1: "C", 2: "C", 3: "Cl"}, name="element")
+
+G2 = nx.Graph()
+G2.add_edges_from([(2, 3), (3, 1), (1, 2)])
+nx.set_node_attributes(G2, {1: "C", 2: "C", 3: "Cl"}, name="element")
+
+# Only allow mappings where `element` is identical
+node_match = iso.categorical_node_match("element", None)
+
+GM = iso.GraphMatcher(G1, G2, node_match=node_match)
+print(GM.is_isomorphic())   # -> False, because Cl cannot map to H
+breakpoint()
 
 molecule = Molecule.from_smiles("CC(C)=Cc1ccccc1c2ccccc2C=O")
 
@@ -64,3 +81,4 @@ for i in range(system.getForces()[0].getNumBonds()):
 print("\n\n\n\n\n")
 print("Copy the above to the text box at https://csacademy.com/app/graph_editor/")
 print("This will show you how all the atoms connect, with each number in the node representing the index.")
+print("Just as a warning, it will likely take a while to untangle it in a way that ")
