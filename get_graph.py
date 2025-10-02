@@ -37,6 +37,8 @@ def write_to_processed(smiles, mapping, bonds):
 
     # Initial Positions
     write_positions(raw_path, dir_path, mapping, "Initial_Pos.csv")
+    write_positions(raw_path, dir_path, mapping, "Target_Pos.csv")
+
 
 def process_raw_graph(smiles):
     dir = os.path.join("Raw_Molecule", smiles)
