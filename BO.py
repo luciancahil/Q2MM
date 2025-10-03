@@ -3,6 +3,7 @@ from scipy.optimize import minimize
 from sklearn.gaussian_process import GaussianProcessRegressor
 from sklearn.gaussian_process.kernels import Matern
 import function
+import os
 import argparse
 
 
@@ -50,8 +51,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     black_box_function = function.square_sin
-
-    file = open("./data/{}_history.txt".format(args.name))
+    
+    file = os.path.join("BO_data", args.name, "dimension.csv")
+    file = open(file)
 
     dim = int(file.readline())
 
@@ -63,6 +65,7 @@ if __name__ == "__main__":
         parts = line.split(",")
         bounds.append((float(parts[0]), float(parts[1])))
 
+    file.close()
 
     # read already calculated values
     xs = []
@@ -73,6 +76,10 @@ if __name__ == "__main__":
     best_trial = -1
 
     trial = 0
+    
+    file = os.path.join("BO_data", args.name, "history.csv")
+    file = open(file)
+
     for line in file:
         parts = line.split(",")
         # + 1 for the files
@@ -99,7 +106,8 @@ if __name__ == "__main__":
 
     print("Next: {}".format(next_x))
 
-    output_file = open("./data/{}_next.txt".format(args.name), mode='w')
+    output_file = os.path.join("BO_data", args.name, "next.csv")
+    output_file = open(output_file, mode='w')
     output_file.write(",".join(next_x))
     output_file.close()
 

@@ -1,6 +1,7 @@
 import numpy as np
 import argparse
 from OpenMMStuff.Everything import run_MM
+import os
 
 def square_sin(x):
     assert(len(x) == 2)
@@ -53,14 +54,16 @@ def choose_function(name):
 
 
 def get_input_vals(name):
-    input_file = open("./data/{}_next.txt".format(name), mode='r')
+    input_file = os.path.join("BO_data", name, "next.csv")
+    input_file = open(input_file)
 
     line = input_file.readline()
 
     return [float(part) for part in line.split(",")]
 
 def append(name, x, y):
-    file = open("./data/{}_history.txt".format(name), mode='a')
+    file = os.path.join("BO_data", name, "history.csv")
+    file = open(file, mode='a')
 
     x.append(y)
 
