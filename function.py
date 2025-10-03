@@ -3,7 +3,7 @@ import argparse
 from OpenMMStuff.Everything import run_MM
 import os
 
-def square_sin(x):
+def square_sin(param, x):
     assert(len(x) == 2)
     return (x[0] - 4.8)**2 + 2 * (np.sin(x[1] + 0.1))**2
 
@@ -43,12 +43,6 @@ def open_mm_focused(x):
 def choose_function(name):
     if name == "square_sin":
         return square_sin
-    elif name == "open_mm_forces":
-        return open_mm_forces
-    elif name == "open_mm_forceless":
-        return open_mm_forceless
-    elif name == "open_mm_focused":
-        return open_mm_focused
     else:
         raise(ValueError("Function not defined"))
 
@@ -81,7 +75,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     name = args.name
 
-    if(args.parameter != None):
+    if(args.parameter != "Dummy"):
         name = name + "-" + args.parameter
 
 
@@ -90,7 +84,7 @@ if __name__ == "__main__":
     black_box_function = choose_function(args.name)
 
 
-    y = black_box_function(x)
+    y = black_box_function(args.parameter, x)
 
 
     print("f({}) = {}".format(x, y))

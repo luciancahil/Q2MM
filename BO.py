@@ -52,7 +52,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     name = args.name
 
-    if(args.parameter != None):
+    if(args.parameter != "Dummy"):
         name = name + "-" + args.parameter
 
     black_box_function = function.square_sin
