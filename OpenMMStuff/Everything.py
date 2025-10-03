@@ -15,50 +15,13 @@ from openff.toolkit import Molecule
 
 
 
-def run_MM(
-    new_CO_bond_length=0.151,
-    new_CO_bond_strength=317000,
-    new_CC_bond_length=0.151,
-    new_CC_bond_strength=317000,
-    replaced_CO_bond_length=0.151,
-    replaced_CO_bond_strength=317000,
-    replaced_CC_bond_length=0.151,
-    replaced_CC_bond_strength=317000,
-    bond_group_coefs=(1.01, 1.02, 1.03, 1.04),
-    angle_group_coefs=(1.01, 1.02, 1.03, 1.04,1.05),
-    use_forces = True):
-
-
-    bond_group_coefs = {i:val for i, val in enumerate(bond_group_coefs)}
-    angle_group_coefs = {i: val for i, val in enumerate(angle_group_coefs)}
-    bond_group_coefs[-1] = 1
-    angle_group_coefs[-1] = 1
-
-    print(bond_group_coefs)
-    print(angle_group_coefs)
-
-
-    bond_group_file = open("./OpenMMStuff/BondGroup.txt")
-    angle_group_file = open("./OpenMMStuff/AngleGroup.txt")
-
-    bond_coefs = dict()
-    for line in bond_group_file:
-        parts = line.split(",")
-        bond_coefs[int(parts[0])] = bond_group_coefs[int(parts[1])]
-
-
-    angle_coefs = dict()
-    for line in angle_group_file:
-        parts = line.split(",")
-        angle_coefs[int(parts[0])] = angle_group_coefs[int(parts[1])]
-
-    print(bond_coefs)
-    print(angle_coefs)
+def run_MM(smiles, x):
 
 
 
 
-    molecule = Molecule.from_smiles("CC(C)=Cc1ccccc1c2ccccc2C=O")
+
+    molecule = Molecule.from_smiles(smiles)
 
     #molecule = Molecule.from_smiles("C")
 
@@ -104,24 +67,15 @@ def run_MM(
 
     #system.getForces()[2].setParticleParameters(0,0,0,0)
 
+    """
 
     bonds = system.getForces()[0]
     bonds.addBond(1, 17, new_CO_bond_length, new_CO_bond_strength)
     bonds.addBond(3, 16, new_CC_bond_length, new_CC_bond_strength)
     bonds.setBondParameters(2, 1, 3, replaced_CC_bond_length, replaced_CC_bond_strength)
     bonds.setBondParameters(16, 16, 17, replaced_CO_bond_length, replaced_CO_bond_strength)
+    """
 
-    for i in range(system.getForces()[0].getNumBonds()):
-        bond = system.getForces()[0].getBondParameters(i)
-        new_len = bond[2] * bond_coefs[i]
-        system.getForces()[0].setBondParameters(i, bond[0], bond[1], new_len, bond[3])
-
-
-
-    for i in range(system.getForces()[4].getNumAngles()):
-        angle = system.getForces()[4].getAngleParameters(i)
-        new_len = angle[3] * angle_coefs[i]
-        system.getForces()[4].setAngleParameters(i, angle[0], angle[1], angle[2], new_len, angle[4])
 
 
     print("Hello!")

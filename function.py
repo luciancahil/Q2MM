@@ -7,42 +7,15 @@ def square_sin(param, x):
     assert(len(x) == 2)
     return (x[0] - 4.8)**2 + 2 * (np.sin(x[1]))**2
 
-
-def open_mm_forces(x):
-    assert(len(x) == 17)
-
-
-    bonds = tuple(x[-9:-5])
-    angles = tuple(x[-5:])
-    print(len(x))
-    error = run_MM(x[0], x[1],x[2],x[3],x[4],x[5],x[6],x[7], bonds, angles)
-    return (error)
-
-
-def open_mm_forceless(x):
-    assert(len(x) == 17)
-
-
-    bonds = tuple(x[-9:-5])
-    angles = tuple(x[-5:])
-    print(len(x))
-    error = run_MM(x[0], x[1],x[2],x[3],x[4],x[5],x[6],x[7], bonds, angles, False)
-    return (error)
-
-def open_mm_focused(x):
-    print(len(x))
-    assert(len(x) == 8)
-
-
-    bonds = tuple(x[-9:-5])
-    angles = tuple(x[-5:])
-    print(len(x))
-    error = run_MM(x[0], x[1],x[2],x[3],x[4],x[5],x[6],x[7], use_forces=False)
-    return (error)
+def q2mm(param, x):
+    error = run_MM(param, x)
+    return error
 
 def choose_function(name):
     if name == "square_sin":
         return square_sin
+    if name == "q2mm":
+        return q2mm
     else:
         raise(ValueError("Function not defined"))
 
