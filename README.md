@@ -79,7 +79,7 @@ $$ F(x, y) = (x- 4.8)^2 +  2 * (\sin(y))^2$$
 Run the following:
 
 ```
-python get_graph.py "CC(C)=Cc1ccccc1c2ccccc2C=O"
+python get_graph.py --smiles "CC(C)=Cc1ccccc1c2ccccc2C=O"
 bash run_bo.sh q2mm "CC(C)=Cc1ccccc1c2ccccc2C=O"
 ```
 
@@ -196,13 +196,13 @@ Once you've created all 5 files, put them all in a folder named for the smiles s
 Then, type the following command into the terminal:
 
 ```
-python get_graph.py [SMILES]
+python get_graph.py --smiles [SMILES]
 ```
 
 For example, if your smiles is "CCC#N", type the following:
 
 ```
-python get_graph.py "CCC#N"
+python get_graph.py --smiles "CCC#N"
 ```
 
 This is needed because atom indicies are arbitrary, and there's a very good chance that OpenMM's indexing formula will give different indexes than what you have. This step handles all that automatically. On top of that, it generates the files needed for to begin the bayes optimization.
