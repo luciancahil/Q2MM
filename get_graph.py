@@ -42,7 +42,7 @@ def generate_BO_files(smiles, num_bonds):
         dim_file.write("50000,1000000\n")
 
     # the next_value file.
-    next_file = (os.path.join(BO_dir, "Next.csv"))
+    next_file = (os.path.join(BO_dir, "initial.csv"))
     next_file = open(next_file, mode='w')
     next_file.write(",".join(["60000" for _ in range(num_bonds)]))
 
