@@ -7,6 +7,7 @@ import numpy as np
 from openff.toolkit import Molecule
 import networkx as nx
 from networkx.algorithms import isomorphism as iso
+import argparse
 
 
 
@@ -29,11 +30,11 @@ def write_positions(raw_path, proccessed_path, mapping, name):
     processed_pos_file.close()
 
 def generate_BO_files(smiles, num_bonds):
-    BO_dir = os.path.join("BO_data", smiles)
+    BO_dir = os.path.join("BO_data", "q2mm-{}".format(smiles))
     os.makedirs(BO_dir, exist_ok=True)
 
     # the dimension files
-    dim_file = os.path.join(BO_dir, "Dimensions.csv")
+    dim_file = os.path.join(BO_dir, "dimension.csv")
     dim_file = open(dim_file, mode='w')
 
     dim_file.write("{}\n".format(num_bonds))
@@ -42,9 +43,11 @@ def generate_BO_files(smiles, num_bonds):
         dim_file.write("50000,1000000\n")
 
     # the next_value file.
-    next_file = (os.path.join(BO_dir, "Next.csv"))
+    next_file = (os.path.join(BO_dir, "initial.csv"))
     next_file = open(next_file, mode='w')
     next_file.write(",".join(["60000" for _ in range(num_bonds)]))
+
+    print("Settings for Bayes Optimization has been stored in {}".format(BO_dir))
 
 def write_modified_bonds(raw_path, dir_path, mapping, bonds):
     mod_bond_file = os.path.join(raw_path, "modified_bonds.csv")
@@ -83,6 +86,7 @@ def write_to_processed(smiles, mapping, bonds):
 
 
     num_special_bonds = write_modified_bonds(raw_path, dir_path, mapping, bonds)
+    print("Information aboout the molecule has been stored in {}".format(dir_path))
 
 
     generate_BO_files(smiles, num_special_bonds)
@@ -111,7 +115,17 @@ def process_raw_graph(smiles):
     
     return raw_bonds, raw_atoms
 
-smiles = "CC(C)=Cc1ccccc1c2ccccc2C=O"
+
+"""
+python get_graph.py --smiles "CC(C)=Cc1ccccc1c2ccccc2C=O"
+"""
+parser = argparse.ArgumentParser(description="A simple script with arguments.")
+
+parser.add_argument("--smiles", type=str, help="name of function", required=True)
+
+args = parser.parse_args()
+smiles = args.smiles
+
 
 molecule = Molecule.from_smiles(smiles)
 

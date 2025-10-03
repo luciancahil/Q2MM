@@ -13,64 +13,70 @@ import numpy as np
 # Create an OpenFF Molecule object for benzene from SMILES
 from openff.toolkit import Molecule
 
+def get_pos(dir, file_name):
+    file = os.path.join(dir, file_name)
+    file = open(file)
 
-
-def run_MM(
-    new_CO_bond_length=0.151,
-    new_CO_bond_strength=317000,
-    new_CC_bond_length=0.151,
-    new_CC_bond_strength=317000,
-    replaced_CO_bond_length=0.151,
-    replaced_CO_bond_strength=317000,
-    replaced_CC_bond_length=0.151,
-    replaced_CC_bond_strength=317000,
-    bond_group_coefs=(1.01, 1.02, 1.03, 1.04),
-    angle_group_coefs=(1.01, 1.02, 1.03, 1.04,1.05),
-    use_forces = True):
-
-
-    bond_group_coefs = {i:val for i, val in enumerate(bond_group_coefs)}
-    angle_group_coefs = {i: val for i, val in enumerate(angle_group_coefs)}
-    bond_group_coefs[-1] = 1
-    angle_group_coefs[-1] = 1
-
-    print(bond_group_coefs)
-    print(angle_group_coefs)
-
-
-    bond_group_file = open("./OpenMMStuff/BondGroup.txt")
-    angle_group_file = open("./OpenMMStuff/AngleGroup.txt")
-
-    bond_coefs = dict()
-    for line in bond_group_file:
+    positions = []
+    for line in file:
         parts = line.split(",")
-        bond_coefs[int(parts[0])] = bond_group_coefs[int(parts[1])]
+        positions.append([float(part) for part in parts])
+
+    return positions
 
 
-    angle_coefs = dict()
-    for line in angle_group_file:
+def get_initial_pos(dir):
+    return get_pos(dir, "initial_pos.csv")
+
+def get_target_pos(dir):
+    return get_pos(dir, "target_pos.csv")
+
+def get_new_bond_list(dir):
+    file = os.path.join(dir, "new_bonds.csv")
+    file = open(file)
+
+    new_bonds = []
+    for line in file:
         parts = line.split(",")
-        angle_coefs[int(parts[0])] = angle_group_coefs[int(parts[1])]
+        new_bonds.append((int(parts[0]), int(parts[1]), float(parts[2])))
 
-    print(bond_coefs)
-    print(angle_coefs)
-
+    return new_bonds
 
 
+def get_modified_bonds(dir):
+    file = os.path.join(dir, "modified_bonds.csv")
+    file = open(file)
 
-    molecule = Molecule.from_smiles("CC(C)=Cc1ccccc1c2ccccc2C=O")
+    modified_bonds = []
+    for line in file:
+        parts = line.split(",")
+        modified_bonds.append((int(parts[0]), int(parts[1]), int(parts[2]), float(parts[3])))
+
+    return modified_bonds
+
+def run_MM(smiles, x):
+    molecule = Molecule.from_smiles(smiles)
+    dir = os.path.join("Processed_Molecule", smiles)
+
+    # each element is start_index, end_index, bond_length
+    new_bonds = get_new_bond_list(dir)
+
+    # each element is bond_index, start_atom, end_atom, bond_length
+    modified_bonds = get_modified_bonds(dir)
+
+    assert( len(modified_bonds) + len(new_bonds) == len(x))
+    positions = get_initial_pos(dir)
+    target_pos = get_target_pos(dir)
 
     #molecule = Molecule.from_smiles("C")
 
     mol=molecule.to_rdkit()
 
-    bonds = mol.GetBonds()
 
 
 
     mol = Molecule.from_rdkit(mol)
-    openff_bonds = set([(bond.to_dict()['atom1'], bond.to_dict()['atom2']) for bond in mol._bonds])
-    openff_atoms = [atom.atomic_number for atom in mol._atoms]
+
 
 
     # Create the SMIRNOFF template generator with the default installed force field (openff-2.1.0)
@@ -105,41 +111,37 @@ def run_MM(
     #system.getForces()[2].setParticleParameters(0,0,0,0)
 
 
+
     bonds = system.getForces()[0]
-    bonds.addBond(1, 17, new_CO_bond_length, new_CO_bond_strength)
-    bonds.addBond(3, 16, new_CC_bond_length, new_CC_bond_strength)
-    bonds.setBondParameters(2, 1, 3, replaced_CC_bond_length, replaced_CC_bond_strength)
-    bonds.setBondParameters(16, 16, 17, replaced_CO_bond_length, replaced_CO_bond_strength)
-
-    for i in range(system.getForces()[0].getNumBonds()):
-        bond = system.getForces()[0].getBondParameters(i)
-        new_len = bond[2] * bond_coefs[i]
-        system.getForces()[0].setBondParameters(i, bond[0], bond[1], new_len, bond[3])
 
 
+    """
+    bonds.addBond(1, 17, 0.24100492249018482, new_CO_bond_strength)
+    bonds.addBond(3, 16, 0.16490954889347675, new_CC_bond_strength)
+    bonds.setBondParameters(2, 1, 3, 0.14809143719020354, replaced_CC_bond_strength)
+    bonds.setBondParameters(16, 16, 17, 0.1345190260703295, replaced_CO_bond_strength)
+    """
 
-    for i in range(system.getForces()[4].getNumAngles()):
-        angle = system.getForces()[4].getAngleParameters(i)
-        new_len = angle[3] * angle_coefs[i]
-        system.getForces()[4].setAngleParameters(i, angle[0], angle[1], angle[2], new_len, angle[4])
+    for i, bond in enumerate(new_bonds):
+        bonds.addBond(bond[0], bond[1], bond[2], x[i])
+
+    x_short = x[len(new_bonds):]
+    for i, bond in enumerate(modified_bonds):
+        bonds.setBondParameters(bond[0], bond[1], bond[2], bond[3], x_short[i])
 
 
-    print("Hello!")
+
     # set positions (dummy)
 
     pos_file = open("./OpenMMStuff/InitialPositionsOpenFF.txt", mode='r')
 
-    positions = []
 
-    for line in pos_file:
-        parts = line.split(",")
-
-        positions.append([float(part) for part in parts[1:]])
+    print("are the positions and bonds right?")
 
     integrator = LangevinMiddleIntegrator(0*kelvin, 1/picosecond, 0.0004*picoseconds)
     simulation = Simulation(mol.to_topology().to_openmm(), system, integrator)
 
-    print(positions)
+    print([bonds.getBondParameters(i) for i in range(bonds.getNumBonds())])
     simulation.context.setPositions(positions)
 
 
@@ -149,58 +151,28 @@ def run_MM(
     simulation.reporters.append(DCDReporter('output.dcd', 1000))
     simulation.reporters.append(StateDataReporter(stdout, 1000, step=True, potentialEnergy=True, temperature=True))
     state = simulation.context.getState(positions=True, energy=True, velocities=True, parameters=True, integratorParameters=True)
-    start_file = open('start.txt', mode='w')
-    end_file = open("end.txt", mode='w')
-    for pos in state.getPositions(True):
-        start_file.write("{}\n".format(pos))
 
     try:
         simulation.step(50000)
-    except(OpenMMException):
-        print("Value Error")
-        return 10**6
-        sys.exit()
+    except OpenMMException as e:
+        print("Error:", e)
+        breakpoint()
+        return 100
 
     state = simulation.context.getState(positions=True, energy=True, forces=True, velocities=True, parameters=True, integratorParameters=True)
-    end_file.write("{}\n".format(len(state.getPositions())))
 
 
     predicted_pos = []
     for pos in state.getPositions(True):
         str_pos = [str(p).split(" ")[0] for p in pos]
-        end_file.write("{}\n".format(",".join(str_pos)))
 
         predicted_pos.append([float(n) for n in str_pos])
 
-    end_file.write("{}\n".format(len(state.getForces())))
-
-    predicted_forces = []
-    for force in state.getForces(True):
-        str_force = [str(f).split(" ")[0] for f in force]
-
-        end_file.write("{}\n".format(",".join(str_force)))
-        predicted_forces.append([float(n) for n in str_force])
-
-    end_file.write("1")
-    end_file.write("{}".format(str(state.getPotentialEnergy()).split(" ")[0]))
-    predicted_energy = float(str(state.getPotentialEnergy()).split(" ")[0])
 
     print("Ended")
 
-    target_file = open("./OpenMMStuff/target.txt", mode='r')
-
-    num_molecules = int(target_file.readline())
-    target_pos = []
-    for _ in range(num_molecules):
-        line = target_file.readline()
-        target_pos.append([float(n) for n in line.split(",")])
 
 
-    target_file.readline()
-    target_forces = []
-    for _ in range(num_molecules):
-        line = target_file.readline()
-        target_forces.append([float(n) for n in line.split(",")])
 
 
 
@@ -217,7 +189,6 @@ def run_MM(
 
     # Step 3: Rotate predicted positions and forces
     predicted_pos_aligned = np.dot(predicted_centered, U)
-    predicted_forces_rot = np.dot(predicted_forces, U)
 
 
     # remove all Hydrogens
@@ -234,12 +205,12 @@ def run_MM(
 
     # Step 4: Compute errors
     position_rmsd = np.sqrt(np.mean(dist_err_square))
-    force_rmse = np.sqrt(np.mean(np.sum((predicted_forces_rot - target_forces)**2, axis=1)))
 
     print(f"Position RMSD: {position_rmsd:.6f}")
-    print(f"Force RMSE:   {force_rmse:.6f}")
 
-    if(use_forces):
-        return position_rmsd + force_rmse
-    else:
-        return position_rmsd
+
+    return position_rmsd
+
+
+# f([0.09091178829241708, 124037.47090186493, 0.4427850843188363, 712228.4922465099, 0.47804226345288636, 689976.6946725135, 0.14856227286757806, 434534.95339649945]) = 
+# 

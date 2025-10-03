@@ -1,8 +1,8 @@
+name="${2:-Dummy}"
 
 
 for i in {1..100}; do
-    echo "Trial: $i"
-    python function.py --name $1   
+    python function.py --name $1 --parameter $name
     exit_status=$?
 
     
@@ -10,7 +10,7 @@ for i in {1..100}; do
         echo "Python script failed with exit code: $exit_status"
         exit 1 # Exit with a non-zero status indicating failure
     fi
-    python BO.py --name $1
+    python BO.py --name $1 --parameter $name
     
     if [ "$exit_status" -eq 1 ]; then
         echo "Python script failed with exit code: $exit_status"
