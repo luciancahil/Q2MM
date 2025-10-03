@@ -6,4 +6,4 @@ Processed_Molecule/*
 
 BO_data/*
 !BO_data/square_sin/dimension.csv
-!BO_data/square_sin/next.csv
+!BO_data/square_sin/initial.csv

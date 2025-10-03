@@ -55,7 +55,11 @@ def choose_function(name):
 
 def get_input_vals(name):
     input_file = os.path.join("BO_data", name, "next.csv")
-    input_file = open(input_file)
+    try:
+        input_file = open(input_file)
+    except(FileNotFoundError):
+        input_file = os.path.join("BO_data", name, "initial.csv")
+        input_file = open(input_file)   
 
     line = input_file.readline()
 
