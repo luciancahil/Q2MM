@@ -34,7 +34,7 @@ def generate_BO_files(smiles, num_bonds):
     os.makedirs(BO_dir, exist_ok=True)
 
     # the dimension files
-    dim_file = os.path.join(BO_dir, "dimensions.csv")
+    dim_file = os.path.join(BO_dir, "dimension.csv")
     dim_file = open(dim_file, mode='w')
 
     dim_file.write("{}\n".format(num_bonds))

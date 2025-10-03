@@ -16,11 +16,6 @@ from openff.toolkit import Molecule
 
 
 def run_MM(smiles, x):
-
-
-
-
-
     molecule = Molecule.from_smiles(smiles)
 
     #molecule = Molecule.from_smiles("C")
@@ -67,18 +62,19 @@ def run_MM(smiles, x):
 
     #system.getForces()[2].setParticleParameters(0,0,0,0)
 
-    """
+
 
     bonds = system.getForces()[0]
-    bonds.addBond(1, 17, new_CO_bond_length, new_CO_bond_strength)
-    bonds.addBond(3, 16, new_CC_bond_length, new_CC_bond_strength)
-    bonds.setBondParameters(2, 1, 3, replaced_CC_bond_length, replaced_CC_bond_strength)
-    bonds.setBondParameters(16, 16, 17, replaced_CO_bond_length, replaced_CO_bond_strength)
+
+
+    """
+    bonds.addBond(1, 17, 0.24100492249018482, new_CO_bond_strength)
+    bonds.addBond(3, 16, 0.16490954889347675, new_CC_bond_strength)
+    bonds.setBondParameters(2, 1, 3, 0.14809143719020354, replaced_CC_bond_strength)
+    bonds.setBondParameters(16, 16, 17, 0.1345190260703295, replaced_CO_bond_strength)
     """
 
 
-
-    print("Hello!")
     # set positions (dummy)
 
     pos_file = open("./OpenMMStuff/InitialPositionsOpenFF.txt", mode='r')
@@ -103,41 +99,23 @@ def run_MM(smiles, x):
     simulation.reporters.append(DCDReporter('output.dcd', 1000))
     simulation.reporters.append(StateDataReporter(stdout, 1000, step=True, potentialEnergy=True, temperature=True))
     state = simulation.context.getState(positions=True, energy=True, velocities=True, parameters=True, integratorParameters=True)
-    start_file = open('start.txt', mode='w')
-    end_file = open("end.txt", mode='w')
-    for pos in state.getPositions(True):
-        start_file.write("{}\n".format(pos))
 
     try:
         simulation.step(50000)
-    except(OpenMMException):
-        print("Value Error")
-        return 10**6
-        sys.exit()
+    except OpenMMException as e:
+        print("Error:", e)
+        breakpoint()
+        return 100
 
     state = simulation.context.getState(positions=True, energy=True, forces=True, velocities=True, parameters=True, integratorParameters=True)
-    end_file.write("{}\n".format(len(state.getPositions())))
 
 
     predicted_pos = []
     for pos in state.getPositions(True):
         str_pos = [str(p).split(" ")[0] for p in pos]
-        end_file.write("{}\n".format(",".join(str_pos)))
 
         predicted_pos.append([float(n) for n in str_pos])
 
-    end_file.write("{}\n".format(len(state.getForces())))
-
-    predicted_forces = []
-    for force in state.getForces(True):
-        str_force = [str(f).split(" ")[0] for f in force]
-
-        end_file.write("{}\n".format(",".join(str_force)))
-        predicted_forces.append([float(n) for n in str_force])
-
-    end_file.write("1")
-    end_file.write("{}".format(str(state.getPotentialEnergy()).split(" ")[0]))
-    predicted_energy = float(str(state.getPotentialEnergy()).split(" ")[0])
 
     print("Ended")
 
@@ -171,7 +149,6 @@ def run_MM(smiles, x):
 
     # Step 3: Rotate predicted positions and forces
     predicted_pos_aligned = np.dot(predicted_centered, U)
-    predicted_forces_rot = np.dot(predicted_forces, U)
 
 
     # remove all Hydrogens
@@ -188,12 +165,12 @@ def run_MM(smiles, x):
 
     # Step 4: Compute errors
     position_rmsd = np.sqrt(np.mean(dist_err_square))
-    force_rmse = np.sqrt(np.mean(np.sum((predicted_forces_rot - target_forces)**2, axis=1)))
 
     print(f"Position RMSD: {position_rmsd:.6f}")
-    print(f"Force RMSE:   {force_rmse:.6f}")
 
-    if(use_forces):
-        return position_rmsd + force_rmse
-    else:
-        return position_rmsd
+
+    return position_rmsd
+
+
+# f([0.09091178829241708, 124037.47090186493, 0.4427850843188363, 712228.4922465099, 0.47804226345288636, 689976.6946725135, 0.14856227286757806, 434534.95339649945]) = 
+# 

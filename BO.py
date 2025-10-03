@@ -57,7 +57,7 @@ if __name__ == "__main__":
 
     black_box_function = function.square_sin
     
-    file = os.path.join("BO_data", name, "dimension.csv")
+    file = os.path.join(".", "BO_data", name, "dimension.csv")
     file = open(file)
 
     dim = int(file.readline())
