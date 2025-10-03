@@ -77,13 +77,17 @@ def append(name, x, y):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="A simple script with arguments.")
     parser.add_argument("--name", type=str, help="name of function", required=True)
+    parser.add_argument("--parameter", type=str, required=False, default=None)
     args = parser.parse_args()
     name = args.name
+
+    if(args.parameter != None):
+        name = name + "-" + args.parameter
 
 
 
     x = get_input_vals(name)
-    black_box_function = choose_function(name)
+    black_box_function = choose_function(args.name)
 
 
     y = black_box_function(x)

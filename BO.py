@@ -48,11 +48,16 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="A simple script with arguments.")
 
     parser.add_argument("--name", type=str, help="name of function", required=True)
+    parser.add_argument("--parameter", type=str, required=False, default=None)
     args = parser.parse_args()
+    name = args.name
+
+    if(args.parameter != None):
+        name = name + "-" + args.parameter
 
     black_box_function = function.square_sin
     
-    file = os.path.join("BO_data", args.name, "dimension.csv")
+    file = os.path.join("BO_data", name, "dimension.csv")
     file = open(file)
 
     dim = int(file.readline())
@@ -77,7 +82,7 @@ if __name__ == "__main__":
 
     trial = 0
     
-    file = os.path.join("BO_data", args.name, "history.csv")
+    file = os.path.join("BO_data", name, "history.csv")
     file = open(file)
 
     for line in file:
@@ -107,7 +112,7 @@ if __name__ == "__main__":
 
     print("Next: {}".format(next_x))
 
-    output_file = os.path.join("BO_data", args.name, "next.csv")
+    output_file = os.path.join("BO_data", name, "next.csv")
     output_file = open(output_file, mode='w')
     output_file.write(",".join(next_x))
     output_file.close()
