@@ -67,19 +67,16 @@ def run_MM(smiles, x):
     assert( len(modified_bonds) + len(new_bonds) == len(x))
     positions = get_initial_pos(dir)
     target_pos = get_target_pos(dir)
-    breakpoint()
 
     #molecule = Molecule.from_smiles("C")
 
     mol=molecule.to_rdkit()
 
-    bonds = mol.GetBonds()
 
 
 
     mol = Molecule.from_rdkit(mol)
-    openff_bonds = set([(bond.to_dict()['atom1'], bond.to_dict()['atom2']) for bond in mol._bonds])
-    openff_atoms = [atom.atomic_number for atom in mol._atoms]
+
 
 
     # Create the SMIRNOFF template generator with the default installed force field (openff-2.1.0)
@@ -125,23 +122,26 @@ def run_MM(smiles, x):
     bonds.setBondParameters(16, 16, 17, 0.1345190260703295, replaced_CO_bond_strength)
     """
 
+    for i, bond in enumerate(new_bonds):
+        bonds.addBond(bond[0], bond[1], bond[2], x[i])
+
+    x_short = x[len(new_bonds):]
+    for i, bond in enumerate(modified_bonds):
+        bonds.setBondParameters(bond[0], bond[1], bond[2], bond[3], x_short[i])
+
 
 
     # set positions (dummy)
 
     pos_file = open("./OpenMMStuff/InitialPositionsOpenFF.txt", mode='r')
 
-    positions = []
 
-    for line in pos_file:
-        parts = line.split(",")
-
-        positions.append([float(part) for part in parts[1:]])
+    print("are the positions and bonds right?")
 
     integrator = LangevinMiddleIntegrator(0*kelvin, 1/picosecond, 0.0004*picoseconds)
     simulation = Simulation(mol.to_topology().to_openmm(), system, integrator)
 
-    print(positions)
+    print([bonds.getBondParameters(i) for i in range(bonds.getNumBonds())])
     simulation.context.setPositions(positions)
 
 
@@ -171,13 +171,6 @@ def run_MM(smiles, x):
 
     print("Ended")
 
-    target_file = open("./OpenMMStuff/target.txt", mode='r')
-
-    num_molecules = int(target_file.readline())
-    target_pos = []
-    for _ in range(num_molecules):
-        line = target_file.readline()
-        target_pos.append([float(n) for n in line.split(",")])
 
 
 
