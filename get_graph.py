@@ -7,6 +7,7 @@ import numpy as np
 from openff.toolkit import Molecule
 import networkx as nx
 from networkx.algorithms import isomorphism as iso
+import argparse
 
 
 
@@ -29,7 +30,7 @@ def write_positions(raw_path, proccessed_path, mapping, name):
     processed_pos_file.close()
 
 def generate_BO_files(smiles, num_bonds):
-    BO_dir = os.path.join("BO_data", smiles)
+    BO_dir = os.path.join("BO_data", "q2mm-{}".format(smiles))
     os.makedirs(BO_dir, exist_ok=True)
 
     # the dimension files
@@ -114,7 +115,17 @@ def process_raw_graph(smiles):
     
     return raw_bonds, raw_atoms
 
-smiles = "CC(C)=Cc1ccccc1c2ccccc2C=O"
+
+"""
+python get_graph.py --smiles "CC(C)=Cc1ccccc1c2ccccc2C=O"
+"""
+parser = argparse.ArgumentParser(description="A simple script with arguments.")
+
+parser.add_argument("--smiles", type=str, help="name of function", required=True)
+
+args = parser.parse_args()
+smiles = args.smiles
+
 
 molecule = Molecule.from_smiles(smiles)
 
