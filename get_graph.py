@@ -54,11 +54,15 @@ def write_modified_bonds(raw_path, dir_path, mapping, bonds):
     mod_bond_file = open(mod_bond_file)
 
     bond_value_dict = dict()
+    new_old_bond_dict = dict()
     for line in mod_bond_file:
         parts = line.split(",")
+        original_bond = [int(parts[0]), int(parts[1])]
         bond = [mapping[int(parts[0])], mapping[int(parts[1])]]
         bond.sort()
+        original_bond.sort()
         bond_value_dict[(bond[0], bond[1])] = float(parts[2])
+        new_old_bond_dict[(bond[0], bond[1])] = original_bond
     
     new_bond_file = os.path.join(dir_path, "new_bonds.csv")
     new_bond_file = open(new_bond_file, mode='w')
@@ -66,12 +70,31 @@ def write_modified_bonds(raw_path, dir_path, mapping, bonds):
     modified_bond_file = os.path.join(dir_path, "modified_bonds.csv")
     modified_bond_file = open(modified_bond_file, mode='w')
 
+    # stores bonds with original indicies
+    old_created_bond = []
+    old_modified_bond = []
+
     for key in bond_value_dict.keys():
         if key in bonds:
             # index, atom1, atom2, bond distance
             modified_bond_file.write("{},{},{},{}\n".format(bonds.index(key), key[0], key[1], bond_value_dict[key]))
+            old_modified_bond.append(new_old_bond_dict[key])
         else:
+            # atom1, atom2, bond_distance
             new_bond_file.write("{},{},{}\n".format(key[0], key[1], bond_value_dict[key]))
+            old_created_bond.append(new_old_bond_dict[key])
+    
+    all_bonds_in_order = old_created_bond + old_modified_bond
+
+    bond_order_file = os.path.join(dir_path, "bond_order.csv")
+    bond_order_file = open(bond_order_file, mode='w')
+
+    for bond in all_bonds_in_order:
+        bond_order_file.write("{},{}\n".format(bond[0], bond[1]))
+
+    bond_order_file.close()
+    modified_bond_file.close()
+    new_bond_file.close()
 
     return len(bond_value_dict)
 
