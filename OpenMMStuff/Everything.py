@@ -13,10 +13,61 @@ import numpy as np
 # Create an OpenFF Molecule object for benzene from SMILES
 from openff.toolkit import Molecule
 
+def get_pos(dir, file_name):
+    file = os.path.join(dir, file_name)
+    file = open(file)
 
+    positions = []
+    for line in file:
+        parts = line.split(",")
+        positions.append([float(part) for part in parts])
+
+    return positions
+
+
+def get_initial_pos(dir):
+    return get_pos(dir, "initial_pos.csv")
+
+def get_target_pos(dir):
+    return get_pos(dir, "target_pos.csv")
+
+def get_new_bond_list(dir):
+    file = os.path.join(dir, "new_bonds.csv")
+    file = open(file)
+
+    new_bonds = []
+    for line in file:
+        parts = line.split(",")
+        new_bonds.append((int(parts[0]), int(parts[1]), float(parts[2])))
+
+    return new_bonds
+
+
+def get_modified_bonds(dir):
+    file = os.path.join(dir, "modified_bonds.csv")
+    file = open(file)
+
+    modified_bonds = []
+    for line in file:
+        parts = line.split(",")
+        modified_bonds.append((int(parts[0]), int(parts[1]), int(parts[2]), float(parts[3])))
+
+    return modified_bonds
 
 def run_MM(smiles, x):
     molecule = Molecule.from_smiles(smiles)
+    dir = os.path.join("Processed_Molecule", smiles)
+
+    # each element is start_index, end_index, bond_length
+    new_bonds = get_new_bond_list(dir)
+
+    # each element is bond_index, start_atom, end_atom, bond_length
+    modified_bonds = get_modified_bonds(dir)
+
+    assert( len(modified_bonds) + len(new_bonds) == len(x))
+    positions = get_initial_pos(dir)
+    target_pos = get_target_pos(dir)
+    breakpoint()
 
     #molecule = Molecule.from_smiles("C")
 
@@ -75,6 +126,7 @@ def run_MM(smiles, x):
     """
 
 
+
     # set positions (dummy)
 
     pos_file = open("./OpenMMStuff/InitialPositionsOpenFF.txt", mode='r')
@@ -128,11 +180,6 @@ def run_MM(smiles, x):
         target_pos.append([float(n) for n in line.split(",")])
 
 
-    target_file.readline()
-    target_forces = []
-    for _ in range(num_molecules):
-        line = target_file.readline()
-        target_forces.append([float(n) for n in line.split(",")])
 
 
 
