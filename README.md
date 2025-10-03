@@ -221,7 +221,38 @@ For example, if your smiles is "CCC#N", type the following:
 bash run_bo.sh q2mm "CCC#N"
 ```
 
+_Note: This last step will take a while. I recommend uploaded to a server, writing a script that only runs this single command, and then submitting the job at this point._
+
 ## Interpreting Results
+
+After several rounds of bayes optimization, the job will halt. To see the results of the optimization, go to BO_data/[SMILES]/history.csv.
+
+Here are the first few lines I got when I ran the example document:
+
+```
+466715.4429015536,433849.13724822557,751756.7206314447,722975.5224792445,0.16269997068682
+191736.69552816986,943207.9388042084,891283.5005421492,50686.57830552048,0.14988104826950543
+66867.4871088601,558661.7546009419,757869.2949573925,944057.3224717024,0.18573598203544378
+
+```
+
+The last value of each line is the loss. The values before this are the inputs: i.e., the k values for each bond.
+
+### Which value corresponds to each bond?
+
+In Processed_Molecule/[SMILES]/bond_order, you wil see the order of the bonds corresponding to each value.
+
+In the example file, that file may look like:
+
+```
+9,19
+8,17
+8,9
+17,19
+```
+
+This means that the first value in history.csv corresponds to the K value of the bond between atoms 9 and 19, the 2nd value in each line is the K value between atoms 8 and 17, and so on. Note that this is the ORIGINAL indicies (the one you used), not the ones openFF uses. Also, the order may be different than what you submitted in modified_bonds.csv.
+
 
 - Files generated in BO_data.
 - How to read.
