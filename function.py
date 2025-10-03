@@ -5,7 +5,7 @@ import os
 
 def square_sin(param, x):
     assert(len(x) == 2)
-    return (x[0] - 4.8)**2 + 2 * (np.sin(x[1] + 0.1))**2
+    return (x[0] - 4.8)**2 + 2 * (np.sin(x[1]))**2
 
 
 def open_mm_forces(x):
