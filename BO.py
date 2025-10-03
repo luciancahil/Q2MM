@@ -98,6 +98,7 @@ if __name__ == "__main__":
 
     bo = BasicBayesianOptimizer(bounds=bounds)
     
+    print("Completed run #{}".format(len(xs)))
 
     for i, y in enumerate(ys):
         bo.update(xs[i], y)

@@ -1,7 +1,6 @@
 
 
 for i in {1..100}; do
-    echo "Trial: $i"
     python function.py --name $1   
     exit_status=$?
 
